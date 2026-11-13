@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/index?r=chat" },
+    { "source": "/api/upload", "destination": "/api/index?r=upload" }
+  ],
+  "functions": {
+    "api/index.js": { "maxDuration": 60 }
+  }
+}
